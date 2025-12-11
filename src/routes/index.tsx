@@ -3,6 +3,7 @@ import RootLayout from '../layouts/RootLayout'
 import Home from '../pages/Home'
 import About from '../pages/About'
 import User from '../pages/User'
+import Contact from '../pages/Contact'
 import NotFound from '../pages/NotFound'
 import LearnIndex from '../pages/learn/Index'
 import LearnJSX from '../pages/learn/JSX'
@@ -24,6 +25,7 @@ export const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: 'about', element: <About /> },
       { path: 'user', element: <User /> },
+      { path: 'contact',element: <Contact/>},
       { path: 'learn', element: <LearnIndex /> },
       { path: 'learn/jsx', element: <LearnJSX /> },
       { path: 'learn/props', element: <LearnProps /> },

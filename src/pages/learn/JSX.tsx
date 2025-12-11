@@ -1,6 +1,9 @@
 import { useState } from 'react'
 
 export default function LearnJSX() {
+
+    console.log("This is jsx")
+
   const [show, setShow] = useState(true)
 
   const [test,setTest] = useState('hello');

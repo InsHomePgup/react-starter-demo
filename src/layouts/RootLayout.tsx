@@ -8,6 +8,7 @@ export default function RootLayout() {
         <Link to="/about">About</Link>
         <Link to="/user">User</Link>
         <Link to="/learn">Learn</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
       <main style={{ padding: 16 }}>
         <Outlet />
