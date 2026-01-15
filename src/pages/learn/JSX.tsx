@@ -54,13 +54,11 @@ export default function LearnJSX() {
   const range = Array.from({ length: 3 }, (_, i) => <span key={i}>{i} </span>)
 
   return (
-    <div>
+    <div className="flex flex-col items-center bg-blue-500">
 
         <div>{test}</div>
 
-        <button onClick={()=>{
-            changeTest()
-        }}></button>
+        <button onClick={()=>{changeTest()}}> It is a button.</button>
 
       <h3>JSX/TSX 基础</h3>
       <button onClick={toggle}>{show ? '隐藏' : '显示'}</button>
